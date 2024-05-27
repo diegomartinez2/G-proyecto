@@ -1,12 +1,21 @@
-[gd_scene load_steps=2 format=3 uid="uid://ds7wsk7b86oib"]
+[gd_scene load_steps=2 format=3 uid="uid://bff15j7c1n6bd"]
 
-[ext_resource type="Script" path="res://CharacterBody2D.gd" id="1_5q6jf"]
+[sub_resource type="SpriteFrames" id="SpriteFrames_xap4y"]
+animations = [{
+"frames": [],
+"loop": true,
+"name": &"up",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": true,
+"name": &"walk",
+"speed": 5.0
+}]
 
-[node name="Node2D" type="Node2D"]
+[node name="Player" type="Area2D"]
+metadata/_edit_group_ = true
 
-[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
-script = ExtResource("1_5q6jf")
-
-[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_xap4y")
+animation = &"walk"
