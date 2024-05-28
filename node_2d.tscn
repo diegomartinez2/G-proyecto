@@ -1,4 +1,6 @@
-[gd_scene load_steps=2 format=3 uid="uid://bff15j7c1n6bd"]
+[gd_scene load_steps=4 format=3 uid="uid://bff15j7c1n6bd"]
+
+[ext_resource type="Texture2D" uid="uid://y3unyrwyrxsl" path="res://icon.svg" id="1_b85u7"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_xap4y"]
 animations = [{
@@ -7,15 +9,29 @@ animations = [{
 "name": &"up",
 "speed": 5.0
 }, {
-"frames": [],
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_b85u7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1_b85u7")
+}],
 "loop": true,
 "name": &"walk",
 "speed": 5.0
 }]
 
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_c558i"]
+radius = 20.0
+height = 46.0
+
 [node name="Player" type="Area2D"]
 metadata/_edit_group_ = true
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+scale = Vector2(0.5, 0.5)
 sprite_frames = SubResource("SpriteFrames_xap4y")
 animation = &"walk"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_c558i")
