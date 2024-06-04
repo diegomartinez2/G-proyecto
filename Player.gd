@@ -37,10 +37,11 @@ func _process(delta):
 		$AnimatedSprite2D.flip_h = velocity.x < 0
 	elif velocity.y != 0:
 		$AnimatedSprite2D.animation = &"up"
-		if velocity.y > 0:
-			rotation = PI
-		else:
-			rotation = 0
+		#if velocity.y > 0:
+			#rotation = PI
+		#else:
+			#rotation = 0
+	rotation = get_global_mouse_position().angle_to_point(position) - PI/2
 
 
 func start(pos):
