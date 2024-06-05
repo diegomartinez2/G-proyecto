@@ -8,7 +8,11 @@ var screen_size # Size of the game window.
 func _ready():
 	screen_size = get_viewport_rect().size
 	hide()
+var target = position
 
+func _input(event):
+	if event.is_action_pressed("click"):
+		target = get_global_mouse_position()
 
 func _process(delta):
 	var velocity = Vector2.ZERO # The player's movement vector.
@@ -20,7 +24,7 @@ func _process(delta):
 		velocity.y += 1
 	if Input.is_action_pressed(&"move_up"):
 		velocity.y -= 1
-
+	
 	if velocity.length() > 0:
 		velocity = velocity.normalized() * speed
 		$AnimatedSprite2D.play()
