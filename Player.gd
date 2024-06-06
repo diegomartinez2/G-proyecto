@@ -16,17 +16,25 @@ func _input(event):
 
 func _process(delta):
 	var velocity = Vector2.ZERO # The player's movement vector.
-	if Input.is_action_pressed(&"move_right"):
-		velocity.x += 1
-	if Input.is_action_pressed(&"move_left"):
-		velocity.x -= 1
-	if Input.is_action_pressed(&"move_down"):
-		velocity.y += 1
-	if Input.is_action_pressed(&"move_up"):
-		velocity.y -= 1
-	
-	if velocity.length() > 0:
+	#if Input.is_action_pressed(&"move_right"):
+	#	velocity.x += 1
+	#if Input.is_action_pressed(&"move_left"):
+	#	velocity.x -= 1
+	#if Input.is_action_pressed(&"move_down"):
+	#	velocity.y += 1
+	#if Input.is_action_pressed(&"move_up"):
+	#	velocity.y -= 1
+	var target = position
+
+	#velocity = position.direction_to(target) * speed
+	look_at(target)
+	if position.distance_to(target) > 10:
+		velocity = position.direction_to(target) * speed
+	elif position.distance_to(target) < 10:
+		velocity = 0
+	if velocity > 0:
 		velocity = velocity.normalized() * speed
+		$AnimatedSprite2D.animation = &"up"
 		$AnimatedSprite2D.play()
 	else:
 		$AnimatedSprite2D.stop()
@@ -34,17 +42,19 @@ func _process(delta):
 	position += velocity * delta
 	position = position.clamp(Vector2.ZERO, screen_size)
 
-	if velocity.x != 0:
-		$AnimatedSprite2D.animation = &"right"
-		$AnimatedSprite2D.flip_v = false
-		$Trail.rotation = 0
-		$AnimatedSprite2D.flip_h = velocity.x < 0
-	elif velocity.y != 0:
-		$AnimatedSprite2D.animation = &"up"
+	#if velocity.x != 0:
+	#	$AnimatedSprite2D.animation = &"right"
+	#	$AnimatedSprite2D.flip_v = false
+	#	$Trail.rotation = 0
+	#	$AnimatedSprite2D.flip_h = velocity.x < 0
+	#elif velocity.y != 0:
+	#	$AnimatedSprite2D.animation = &"up"
 		#if velocity.y > 0:
 			#rotation = PI
 		#else:
 			#rotation = 0
+	#if velocity != 0:
+	#	$AnimatedSprite2D.animation = &"up"
 	rotation = get_global_mouse_position().angle_to_point(position) - PI/2
 
 
