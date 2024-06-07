@@ -1,0 +1,35 @@
+[gd_scene load_steps=5 format=3 uid="uid://bgdot6fju8uax"]
+
+[ext_resource type="Texture2D" uid="uid://cehdwwm0rva0s" path="res://playerGrey_up1.png" id="1_m2lmd"]
+[ext_resource type="Texture2D" uid="uid://bko65a0nd66st" path="res://art/playerGrey_up2.png" id="2_scr7q"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_u238f"]
+radius = 27.0
+height = 62.0
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_mobc0"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_m2lmd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_scr7q")
+}],
+"loop": true,
+"name": &"camina",
+"speed": 5.0
+}]
+
+[node name="Jugador" type="Area2D"]
+metadata/_edit_group_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_u238f")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+scale = Vector2(0.5, 0.5)
+sprite_frames = SubResource("SpriteFrames_mobc0")
+animation = &"camina"
+frame = 1
+frame_progress = 0.351823
