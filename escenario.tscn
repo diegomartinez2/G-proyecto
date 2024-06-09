@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://ixsnuyv0s70k"]
+
+[node name="Escenario" type="Node2D"]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="CanvasLayer"]
