@@ -5,3 +5,10 @@
 
 Empezar con un juego simple 2D...
 Otra vez...
+Un juego se crea uniendo escenas, las escenas se crean con nodos y código script.
+
+Lista de escenas para un juego sinple:
+1. Jugador
+2. Escenario
+3. Enemigos
+4. Interfaz de usuario.
