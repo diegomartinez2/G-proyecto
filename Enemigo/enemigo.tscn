@@ -1,7 +1,8 @@
-[gd_scene load_steps=5 format=3 uid="uid://bghso4jmnih75"]
+[gd_scene load_steps=6 format=3 uid="uid://bghso4jmnih75"]
 
 [ext_resource type="Texture2D" uid="uid://bu4221t7qpa7d" path="res://art/enemyWalking_1.png" id="1_jdxhn"]
 [ext_resource type="Texture2D" uid="uid://booij5t7h4efb" path="res://art/enemyWalking_2.png" id="2_ejuwy"]
+[ext_resource type="Script" path="res://Enemigo/AnimatedSprite2D.gd" id="3_orsil"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_0fqs8"]
 radius = 46.0
@@ -31,3 +32,4 @@ rotation = -1.5708
 sprite_frames = SubResource("SpriteFrames_1qs1u")
 frame = 1
 frame_progress = 0.0890143
+script = ExtResource("3_orsil")
