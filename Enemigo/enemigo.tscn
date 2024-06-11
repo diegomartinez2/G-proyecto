@@ -4,6 +4,8 @@
 [ext_resource type="Texture2D" uid="uid://booij5t7h4efb" path="res://art/enemyWalking_2.png" id="2_ejuwy"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_0fqs8"]
+radius = 46.0
+height = 126.0
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_1qs1u"]
 animations = [{
@@ -25,6 +27,7 @@ animations = [{
 shape = SubResource("CapsuleShape2D_0fqs8")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+rotation = -1.5708
 sprite_frames = SubResource("SpriteFrames_1qs1u")
 frame = 1
-frame_progress = 0.806873
+frame_progress = 0.0890143
