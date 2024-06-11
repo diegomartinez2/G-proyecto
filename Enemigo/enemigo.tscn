@@ -1,0 +1,30 @@
+[gd_scene load_steps=5 format=3 uid="uid://bghso4jmnih75"]
+
+[ext_resource type="Texture2D" uid="uid://bu4221t7qpa7d" path="res://art/enemyWalking_1.png" id="1_jdxhn"]
+[ext_resource type="Texture2D" uid="uid://booij5t7h4efb" path="res://art/enemyWalking_2.png" id="2_ejuwy"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_0fqs8"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_1qs1u"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_jdxhn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_ejuwy")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="Enemigo" type="CharacterBody2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_0fqs8")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_1qs1u")
+frame = 1
+frame_progress = 0.806873
