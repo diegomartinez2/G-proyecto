@@ -4,7 +4,7 @@
 1. ¿Juego 3D?
 
 Empezar con un juego simple 2D...
-Otra vez...
+_Otra vez..._
 Un juego se crea uniendo escenas, las escenas se crean con nodos y código script.
 
 Lista de escenas para un juego sinple:
