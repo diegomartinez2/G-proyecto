@@ -1,7 +1,15 @@
-[gd_scene format=3 uid="uid://ixsnuyv0s70k"]
+[gd_scene load_steps=2 format=3 uid="uid://ixsnuyv0s70k"]
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_raldm"]
+distance = -647.0
 
 [node name="Escenario" type="Node2D"]
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
 [node name="ParallaxBackground" type="ParallaxBackground" parent="CanvasLayer"]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+shape = SubResource("WorldBoundaryShape2D_raldm")
