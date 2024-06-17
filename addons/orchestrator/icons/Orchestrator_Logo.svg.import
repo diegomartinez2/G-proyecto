@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://yc7x5epnwitk"
-path="res://.godot/imported/Orchestrator_Logo.svg-0538bd0edfc8e69e8c13586f47666275.ctex"
+path="res://.godot/imported/Orchestrator_Logo.svg-81c7cf2a5f37e0322dce51dba9853017.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://orchestrator/icons/Orchestrator_Logo.svg"
-dest_files=["res://.godot/imported/Orchestrator_Logo.svg-0538bd0edfc8e69e8c13586f47666275.ctex"]
+source_file="res://addons/orchestrator/icons/Orchestrator_Logo.svg"
+dest_files=["res://.godot/imported/Orchestrator_Logo.svg-81c7cf2a5f37e0322dce51dba9853017.ctex"]
 
 [params]
 
