@@ -12,3 +12,4 @@ Lista de escenas para un juego sinple:
 2. Escenario
 3. Enemigos
 4. Interfaz de usuario.
+5. Crafting...
