@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://eq5pr1oyp2lq"
+path="res://.godot/imported/AnyConv.com__door.obj-c8b729ee7ad130bc2ea21dd45de6c88e.mesh"
+
+[deps]
+
+files=["res://.godot/imported/AnyConv.com__door.obj-c8b729ee7ad130bc2ea21dd45de6c88e.mesh"]
+
+source_file="res://art/Free 3D Modular Game Assets For Prototyping/Pieces/AnyConv.com__door.obj"
+dest_files=["res://.godot/imported/AnyConv.com__door.obj-c8b729ee7ad130bc2ea21dd45de6c88e.mesh", "res://.godot/imported/AnyConv.com__door.obj-c8b729ee7ad130bc2ea21dd45de6c88e.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

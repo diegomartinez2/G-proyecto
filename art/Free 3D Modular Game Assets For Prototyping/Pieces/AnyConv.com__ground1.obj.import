@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c4qupo3bm31rw"
+path="res://.godot/imported/AnyConv.com__ground1.obj-25991082366c944830b7be8413a0e4b5.mesh"
+
+[deps]
+
+files=["res://.godot/imported/AnyConv.com__ground1.obj-25991082366c944830b7be8413a0e4b5.mesh"]
+
+source_file="res://art/Free 3D Modular Game Assets For Prototyping/Pieces/AnyConv.com__ground1.obj"
+dest_files=["res://.godot/imported/AnyConv.com__ground1.obj-25991082366c944830b7be8413a0e4b5.mesh", "res://.godot/imported/AnyConv.com__ground1.obj-25991082366c944830b7be8413a0e4b5.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

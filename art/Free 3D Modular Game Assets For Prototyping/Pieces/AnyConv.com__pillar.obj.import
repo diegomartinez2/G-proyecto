@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://p0vf8gd0y5rt"
+path="res://.godot/imported/AnyConv.com__pillar.obj-6f771d5befab353b2473e8de3681726b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/AnyConv.com__pillar.obj-6f771d5befab353b2473e8de3681726b.mesh"]
+
+source_file="res://art/Free 3D Modular Game Assets For Prototyping/Pieces/AnyConv.com__pillar.obj"
+dest_files=["res://.godot/imported/AnyConv.com__pillar.obj-6f771d5befab353b2473e8de3681726b.mesh", "res://.godot/imported/AnyConv.com__pillar.obj-6f771d5befab353b2473e8de3681726b.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://mtw72q381dcv"
+path="res://.godot/imported/AnyConv.com__ground corner.obj-38cd32c391335ec4444a8c71bcf79d3d.mesh"
+
+[deps]
+
+files=["res://.godot/imported/AnyConv.com__ground corner.obj-38cd32c391335ec4444a8c71bcf79d3d.mesh"]
+
+source_file="res://art/Free 3D Modular Game Assets For Prototyping/Pieces/AnyConv.com__ground corner.obj"
+dest_files=["res://.godot/imported/AnyConv.com__ground corner.obj-38cd32c391335ec4444a8c71bcf79d3d.mesh", "res://.godot/imported/AnyConv.com__ground corner.obj-38cd32c391335ec4444a8c71bcf79d3d.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false
