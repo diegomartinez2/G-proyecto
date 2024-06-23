@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bl5e18s6wrvwq"
+path="res://.godot/imported/AnyConv.com__cylinder.obj-8c9d949cca3a0cc7efce700a4f0656ae.mesh"
+
+[deps]
+
+files=["res://.godot/imported/AnyConv.com__cylinder.obj-8c9d949cca3a0cc7efce700a4f0656ae.mesh"]
+
+source_file="res://art/Free 3D Modular Game Assets For Prototyping/Pieces/AnyConv.com__cylinder.obj"
+dest_files=["res://.godot/imported/AnyConv.com__cylinder.obj-8c9d949cca3a0cc7efce700a4f0656ae.mesh", "res://.godot/imported/AnyConv.com__cylinder.obj-8c9d949cca3a0cc7efce700a4f0656ae.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false
