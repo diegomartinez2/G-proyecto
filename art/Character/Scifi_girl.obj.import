@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bcq8etl1icqj0"
+path="res://.godot/imported/Scifi_girl.obj-ed751743ece176c96690ff2ea31de297.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Scifi_girl.obj-ed751743ece176c96690ff2ea31de297.mesh"]
+
+source_file="res://art/Character/Scifi_girl.obj"
+dest_files=["res://.godot/imported/Scifi_girl.obj-ed751743ece176c96690ff2ea31de297.mesh", "res://.godot/imported/Scifi_girl.obj-ed751743ece176c96690ff2ea31de297.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

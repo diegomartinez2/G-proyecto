@@ -1,4 +1,6 @@
-[gd_scene load_steps=2 format=3 uid="uid://433u8d8wikng"]
+[gd_scene load_steps=3 format=3 uid="uid://433u8d8wikng"]
+
+[ext_resource type="PackedScene" uid="uid://dyfwuff5qtuah" path="res://art/Character/Scifi_girl.glb" id="1_076ll"]
 
 [sub_resource type="WorldBoundaryShape3D" id="WorldBoundaryShape3D_crxxn"]
 
@@ -10,3 +12,7 @@
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
 shape = SubResource("WorldBoundaryShape3D_crxxn")
+
+[node name="Scifi_girl" parent="." instance=ExtResource("1_076ll")]
+
+[node name="AnimationPlayer2" type="AnimationPlayer" parent="Scifi_girl"]
