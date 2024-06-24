@@ -1,4 +1,6 @@
-[gd_scene load_steps=2 format=3 uid="uid://coy1cy33bt4qu"]
+[gd_scene load_steps=3 format=3 uid="uid://coy1cy33bt4qu"]
+
+[ext_resource type="Texture2D" uid="uid://iu8uc0opdw7t" path="res://art/7e1350985ed5492bee2af5cb2826da0d.jpg" id="1_7yt10"]
 
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_raldm"]
 distance = -647.0
@@ -13,3 +15,7 @@ distance = -647.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
 shape = SubResource("WorldBoundaryShape2D_raldm")
+
+[node name="7e1350985Ed5492Bee2Af5Cb2826Da0d" type="Sprite2D" parent="."]
+scale = Vector2(2, 2.188)
+texture = ExtResource("1_7yt10")
