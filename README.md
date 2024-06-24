@@ -13,3 +13,5 @@ Lista de escenas para un juego sinple:
 3. Enemigos
 4. Interfaz de usuario.
 5. Crafting...
+
+Comenzar con un '2D walking simulator'
