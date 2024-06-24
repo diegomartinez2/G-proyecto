@@ -1,10 +1,10 @@
 [gd_scene load_steps=3 format=3 uid="uid://433u8d8wikng"]
 
-[ext_resource type="PackedScene" uid="uid://dyfwuff5qtuah" path="res://art/Character/Scifi_girl.glb" id="1_076ll"]
+[ext_resource type="Material" uid="uid://d3gac7ukfwi4c" path="res://Fondo/Materiales/Floor_material.tres" id="1_2sbks"]
 
 [sub_resource type="WorldBoundaryShape3D" id="WorldBoundaryShape3D_crxxn"]
 
-[node name="Node3D" type="Node3D"]
+[node name="Mundo" type="Node3D"]
 
 [node name="GridMap" type="GridMap" parent="."]
 
@@ -13,6 +13,18 @@
 [node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
 shape = SubResource("WorldBoundaryShape3D_crxxn")
 
-[node name="Scifi_girl" parent="." instance=ExtResource("1_076ll")]
+[node name="Mapa" type="Node3D" parent="."]
 
-[node name="AnimationPlayer2" type="AnimationPlayer" parent="Scifi_girl"]
+[node name="CSGBox3D" type="CSGBox3D" parent="Mapa"]
+material_override = ExtResource("1_2sbks")
+size = Vector3(10, 1, 10)
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="Mapa"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.5, 2, 0)
+material_override = ExtResource("1_2sbks")
+size = Vector3(1, 3, 10)
+
+[node name="CSGBox3D3" type="CSGBox3D" parent="Mapa"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.5, 2, 0)
+material_override = ExtResource("1_2sbks")
+size = Vector3(1, 3, 10)
