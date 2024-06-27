@@ -15,3 +15,5 @@ Lista de escenas para un juego sinple:
 5. Crafting...
 
 Comenzar con un '2D walking simulator'
+
+Idea final: RPG basado en M-space con cartas en lugar de habilidades/recursos.
