@@ -30,6 +30,12 @@ click={
 ]
 }
 
+[layer_names]
+
+2d_render/layer_1="Entorno"
+2d_render/layer_2="Jugadores"
+2d_render/layer_3="Enemigos"
+
 [rendering]
 
 renderer/rendering_method="mobile"
