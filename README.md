@@ -14,6 +14,6 @@ Lista de escenas para un juego sinple:
 4. Interfaz de usuario.
 5. Crafting...
 
-Comenzar con un '2D walking simulator'
+Comenzar con un '2D walking simulator': Top view walking simulator con mecánica de point and walk...
 
 Idea final: RPG basado en M-space con cartas en lugar de habilidades/recursos.
