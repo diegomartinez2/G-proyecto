@@ -1,7 +1,8 @@
-[gd_scene load_steps=5 format=3 uid="uid://chy00aj5aeb85"]
+[gd_scene load_steps=6 format=3 uid="uid://chy00aj5aeb85"]
 
 [ext_resource type="Texture2D" uid="uid://b4yyoafu8bi0q" path="res://art/playerGrey_up1.png" id="1_w1hmo"]
 [ext_resource type="Texture2D" uid="uid://bko65a0nd66st" path="res://art/playerGrey_up2.png" id="2_g7u46"]
+[ext_resource type="Script" path="res://Jugador/Player_clickandmove.gd" id="3_qsnbd"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_apfci"]
 animations = [{
@@ -29,3 +30,4 @@ sprite_frames = SubResource("SpriteFrames_apfci")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("CapsuleShape2D_2jl35")
+script = ExtResource("3_qsnbd")
