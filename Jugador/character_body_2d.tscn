@@ -2,7 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://b4yyoafu8bi0q" path="res://art/playerGrey_up1.png" id="1_w1hmo"]
 [ext_resource type="Texture2D" uid="uid://bko65a0nd66st" path="res://art/playerGrey_up2.png" id="2_g7u46"]
-[ext_resource type="Script" path="res://Jugador/Player_clickandmove.gd" id="3_qsnbd"]
+[ext_resource type="Script" path="res://Jugador/Player_click.gd" id="3_qsnbd"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_apfci"]
 animations = [{
