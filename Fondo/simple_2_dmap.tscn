@@ -2,6 +2,8 @@
 
 [node name="Simple2Dmap" type="Node2D"]
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Area2D"]
 position = Vector2(47, 69)
 polygon = PackedVector2Array(-15, -5, -15, 3, 521, 3, 521, 307, -39, 307, -39, -5, -47, -5, -47, 315, 529, 315, 529, -5)
