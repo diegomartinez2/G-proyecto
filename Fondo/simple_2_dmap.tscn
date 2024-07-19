@@ -1,9 +1,28 @@
-[gd_scene format=3 uid="uid://dmbxwr17bfjds"]
+[gd_scene load_steps=3 format=3 uid="uid://dmbxwr17bfjds"]
+
+[ext_resource type="Texture2D" uid="uid://didy8bcict7oo" path="res://art/Fondos_2D/its-top-secret-what-were-building-ere-ya-know-they-wont-v0-kmhphgqravrc1.webp" id="1_gvwgf"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ikava"]
+size = Vector2(232, 136)
 
 [node name="Simple2Dmap" type="Node2D"]
 
 [node name="Area2D" type="Area2D" parent="."]
 
+[node name="Its-top-secret-what-were-building-ere-ya-know-they-wont-v0-kmhphgqravrc1" type="Sprite2D" parent="Area2D"]
+position = Vector2(280, 336)
+texture = ExtResource("1_gvwgf")
+
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Area2D"]
-position = Vector2(47, 69)
-polygon = PackedVector2Array(-15, -5, -15, 3, 521, 3, 521, 307, -39, 307, -39, -5, -47, -5, -47, 315, 529, 315, 529, -5)
+position = Vector2(280, -88)
+polygon = PackedVector2Array(-304, 64, -184, 64, -184, -88, -536, -88, -536, 608, 56, 608, 56, 192, -312, 184)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(280, -88)
+shape = SubResource("RectangleShape2D_ikava")
+
+[node name="CollisionPolygon2D2" type="CollisionPolygon2D" parent="Area2D"]
+polygon = PackedVector2Array(-256, -320, 728, -320, 728, -216, 592, -216, 584, -264, 96, -264, 96, -224, -256, -216)
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Area2D/CollisionPolygon2D2"]
+polygon = PackedVector2Array(728, -168, 592, -168, 584, -136, 464, -136, 472, 792, 720, 792)
