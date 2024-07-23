@@ -26,3 +26,5 @@ polygon = PackedVector2Array(-256, -320, 728, -320, 728, -216, 592, -216, 584, -
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Area2D/CollisionPolygon2D2"]
 polygon = PackedVector2Array(728, -168, 592, -168, 584, -136, 464, -136, 472, 792, 720, 792)
+
+[node name="Camera2D" type="Camera2D" parent="."]
