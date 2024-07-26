@@ -17,4 +17,7 @@ Lista de escenas para un juego sinple:
 Comenzar con un '2D walking simulator': Top view walking simulator con mecánica de point and walk...
 buscar cómo calcular la trayectoria con 'path'.
 
-Idea final: RPG basado en M-space con cartas en lugar de habilidades/recursos.
+¿Cómo hacer el escenario?
+¿Cómo hacer la interfaz?
+
+Idea final: RPG basado en M-space con cartas en lugar de habilidades/recursos. ()
