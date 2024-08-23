@@ -20,3 +20,5 @@ buscar cómo calcular la trayectoria con 'path'.
 ¿Cómo hacer la interfaz?
 
 Idea final: RPG basado en M-space con cartas en lugar de habilidades/recursos. ()
+
+Mirar el comando de GODOT OS.execute para realizar tareas complicadas.
