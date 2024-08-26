@@ -21,4 +21,4 @@ buscar cómo calcular la trayectoria con 'path'.
 
 Idea final: RPG basado en M-space con cartas en lugar de habilidades/recursos. ()
 
-Mirar el comando de GODOT OS.execute para realizar tareas complicadas.
+Mirar el comando de GODOT OS.execute para realizar tareas complicadas. Se puede usar otros programas (p.ej. Python) para realizar otras tareas.
