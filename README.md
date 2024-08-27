@@ -13,7 +13,7 @@ Lista de escenas para un juego simple:
 3. Enemigos
 4. Interfaz de usuario.
 
-Comenzar con un '2D walking simulator': Top view walking simulator con mecánica de point and walk...
+Comenzar con un '2D walking simulator': Top view walking simulator con mecánica de point and walk... cuanto más sencillo mejor
 buscar cómo calcular la trayectoria con 'path'.
 
 ¿Cómo hacer el escenario? Estilo mapa simple.
