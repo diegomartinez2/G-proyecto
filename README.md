@@ -17,6 +17,7 @@ Comenzar con un '2D walking simulator': Top view walking simulator con mecánica
 Buscar cómo calcular la trayectoria con 'path'. En el ejemplo 'pacman' está el caso de trayectorias prefijadas, ¿Cómo hacer trayectorias procedurales?.
 
 ¿Cómo hacer el escenario? Estilo mapa simple. ¿es posible usar el código para hacer mapas vectoriales procedurales?
+
 ¿Cómo hacer la interfaz?
 
 Idea final: RPG basado en M-space con cartas en lugar de habilidades/recursos. ()
