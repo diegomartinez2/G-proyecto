@@ -26,3 +26,4 @@ Mirar el comando de GODOT OS.execute para realizar tareas complicadas. Se puede 
 
 Estoy mirando el método isométrico.
 
+_¿Arbol de tecnología?_
