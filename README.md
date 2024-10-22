@@ -27,3 +27,4 @@ Mirar el comando de GODOT OS.execute para realizar tareas complicadas. Se puede 
 Estoy mirando el método isométrico.
 
 _¿Arbol de tecnología?_
+¿Cómo inplementar algo original?, Tal vez la idea de usar un sistema de cartas... 
